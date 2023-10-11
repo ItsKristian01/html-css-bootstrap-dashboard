@@ -79,22 +79,43 @@
     outline: none;
 }
 
+@media screen and (min-width:375px) {
+    .search-control {
+      width: 90%;
+    }
+ 
+    .search-control input {
+      width: 90%;
+    }
+ }
+
+/* ICONS */
+
 .icons {
     margin-left: 1rem;
 }
 
-@media screen and (min-width:375px) {
-   .search-control {
-     width: 90%;
-   }
-
-   .search-control input {
-     width: 90%;
-   }
+.btn-remover {
+    background: none;
+	color: inherit;
+	border: none;
 }
 
-/* ICONS */
+@media screen and (min-width:375px) {
+   .btn-remover {
+    display: none;
+   }
 
+   .btn-orange {
+     display: inline;
+   }
+ }
+
+ @media screen and (min-width:992px) {
+    .btn-remover {
+        display: block;
+    }
+  }
 /* MAIN */
 
 .main {
