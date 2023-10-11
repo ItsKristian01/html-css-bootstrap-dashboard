@@ -7,12 +7,38 @@
 .nav-bar { 
     width: 100%; 
     height: 60px; 
-    background-color: #717bff;
+    background-color: #ffffff;
     position: fixed; 
     top: 0; 
     left: 0; 
     z-index: 9999; 
 }
+
+.img-resize{
+    width: 60px;
+}
+
+.svg-size {
+    width: 160px;
+}
+
+@media screen and (min-width:375px) {
+    .svg-size {
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .img-resize {
+        display: none;
+    }
+
+    .svg-size {
+        display: block;
+        padding: 1rem;
+    }
+}
+
 
 /* MAIN */
 
@@ -23,7 +49,7 @@
 .sidebar {
     background-color: hsl(208.09deg 82.46% 11.18%);
     width: 100px;
-    height: 600px;
+    height: 570px;
 }
 
 .content {
