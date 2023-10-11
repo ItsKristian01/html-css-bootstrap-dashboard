@@ -39,7 +39,37 @@
     }
 }
 
+.search-bar {
+    width: 400px;
+}
 
+.search-bar {
+    background-color: hsl(0deg 0% 100%);
+    height: 30px;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search-control{
+    background-color: white;
+    width: 500px;
+    padding: 3px 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.search-control input {
+    border: 0;
+    padding: 5px;
+}
+
+.search-control input:focus-visible {
+    outline: none;
+}
 /* MAIN */
 
 .main {
