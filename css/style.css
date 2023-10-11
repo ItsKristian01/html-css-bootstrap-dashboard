@@ -122,12 +122,45 @@
     height: calc(100vh - 60px);
 }
 
+/* SIDEBAR */
+
 .sidebar {
     background-color: hsl(208.09deg 82.46% 11.18%);
-    width: 100px;
+    width: 90px;
     height: 570px;
+    margin-top: 60px;
+    padding: 1.5rem;
 }
 
+.side-btn {
+    background: none;
+	color: inherit;
+	border: none;
+}
+
+
+
+@media screen and (min-width:375px) {
+    .side-text{
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .sidebar {
+        width: 170px;
+    }
+
+    .side-text{
+        display: inline;
+    }
+
+    .settings {
+        display: none;
+    }
+}
+
+/* CONTENT */
 .content {
     background-color: rgb(255, 37, 37);
     width: 95%;
@@ -135,9 +168,5 @@
     overflow-y: scroll;
 }
 
-@media screen and (min-width:992px) {
-    .sidebar {
-        width: 150px;
-    }
-}
+
 
