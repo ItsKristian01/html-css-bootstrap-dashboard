@@ -229,3 +229,7 @@
         display: table-cell;
     }  
  }
+
+ .bg-card-head {
+    background-color: hsl(0deg 0% 96.86%);
+ }
