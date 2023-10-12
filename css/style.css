@@ -125,9 +125,10 @@
 /* SIDEBAR */
 
 .sidebar {
+    background-image: url(../img/img/sidebar-bg.png);
     background-color: hsl(208.09deg 82.46% 11.18%);
-    width: 90px;
-    height: 570px;
+    width: 80px;
+    height: 600x;
     margin-top: 60px;
     padding: 1.5rem;
 }
@@ -137,7 +138,6 @@
 	color: inherit;
 	border: none;
 }
-
 
 
 @media screen and (min-width:375px) {
@@ -155,9 +155,10 @@
         display: inline;
     }
 
-    .settings {
-        display: none;
-    }
+}
+
+.settings {
+   margin-top: 350px;
 }
 
 /* CONTENT */
